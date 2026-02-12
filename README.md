@@ -6,41 +6,41 @@ Materia: Fundamentos de Programación
 Docente: Ruth Aivi Chávez Rodríguez  
 Periodo: Febrero - Junio  
 
-Este repositorio contiene las evidencias prácticas del curso.
-Cada alumno debe trabajar exclusivamente en su repositorio individual generado por GitHub Classroom.
+Este repositorio contiene las evidencias prácticas del curso.  
+Cada alumno trabaja en su repositorio individual generado automáticamente por GitHub Classroom.
 
 ---
 
 # 🎯 Objetivo del repositorio
 
-Desarrollar habilidades de pensamiento lógico y estructurado mediante la resolución de problemas utilizando:
+Desarrollar habilidades de pensamiento lógico mediante:
 
-- PSeInt
-- Python
-- C#
+- Diseño de algoritmos
+- Representación gráfica
+- Pseudocódigo
+- Traducción a lenguaje de programación
 
-Se evaluará tanto el producto (código) como el proceso (bitácora y commits).
+Se evaluará tanto el resultado como el proceso de trabajo.
 
 ---
 
-# 📁 Estructura del repositorio
+# 📁 Organización por Unidad
 
-Cada unidad deberá trabajarse dentro de su carpeta correspondiente.
+Cada unidad contiene carpetas por lenguaje o herramienta.
 
 Ejemplo:
 
 U1_Algoritmos/
-    pseint/
-        tareas/
-        practicas/
+    pseudocodigo/
     python/
-        tareas/
-        practicas/
     csharp/
-        tareas/
-        practicas/
 
-BITACORA.md
+U2_Condicionales/
+    pseudocodigo/
+    python/
+    csharp/
+
+⚠ El tipo de actividad (Tarea o Práctica) se identifica en el nombre del archivo, NO en la carpeta.
 
 ---
 
@@ -55,9 +55,8 @@ U{unidad}_T{numero}.{extension}
 Ejemplos:
 
 U1_T1.psc  
-U1_T2.psc  
-U2_T1.py  
-U3_T1.cs  
+U1_T2.py  
+U2_T1.cs  
 
 ---
 
@@ -70,9 +69,8 @@ U{unidad}_P_{numero}.{extension}
 Ejemplos:
 
 U1_P_01.psc  
-U1_P_02.psc  
-U2_P_01.py  
-U3_P_01.cs  
+U1_P_02.py  
+U2_P_01.cs  
 
 ---
 
@@ -80,42 +78,88 @@ U3_P_01.cs
 
 ---
 
-# 🔄 Proceso de trabajo obligatorio
+# 🧰 Entorno de trabajo
 
-1. Resolver el ejercicio.
-2. Guardarlo en la carpeta correcta.
-3. Hacer commit descriptivo.
-4. Actualizar BITACORA.md.
-5. Subir cambios con git push.
+## 🔹 Pseudocódigo
+
+Se utilizará pseudocodigo.app (en navegador).
+
+Entrega mínima:
+
+- Archivo del pseudocódigo exportado.
+- Evidencia (captura o PDF si se solicita).
+- Subirlo en la carpeta correspondiente a la unidad.
+
+Ejemplo:
+
+U1_Algoritmos/pseudocodigo/U1_T1.psc
 
 ---
 
-# 📝 Reglas de commit
+## 🔹 Python y C# (Codespaces)
 
-El mensaje de commit debe ser claro y descriptivo.
+El repositorio está configurado para ejecutarse en GitHub Codespaces.
+
+### Abrir Codespaces
+
+1. Entrar al repositorio.
+2. Click en "Code".
+3. Ir a la pestaña "Codespaces".
+4. Crear un nuevo Codespace.
+5. Esperar a que cargue el entorno.
+
+---
+
+## ▶ Ejecutar Python
+
+Ejemplo:
+
+python U1_Algoritmos/python/U1_T1.py
+
+---
+
+## ▶ Ejecutar C#
+
+Si es proyecto:
+
+dotnet run --project U1_Algoritmos/csharp/U1_T1
+
+---
+
+# 🔄 Reglas de Commit (OBLIGATORIO)
+
+Cada commit debe describir claramente qué problema se resolvió.
+
+Formato recomendado:
+
+U{unidad}_{tipo}_{numero}: descripción clara
 
 Ejemplos correctos:
 
-"U1_T1 estructura básica completada"  
-"U1_P_01 corregido error de ciclo"  
+U1_T1: programa para calcular total de una compra  
+U1_P_01: práctica de operadores aritméticos  
+U1_T2: algoritmo para calcular promedio  
 
 Ejemplos incorrectos:
 
-"tarea"  
-"listo"  
-"ya"
+tarea  
+listo  
+ya quedó  
+entrega  
+
+El historial de commits forma parte de la evaluación.
 
 ---
 
-# 📊 Criterios de evaluación
+# 📝 Proceso obligatorio de trabajo
 
-Se evaluará:
-
-✔ Código funcional  
-✔ Estructura correcta  
-✔ Convención de nombres  
-✔ Bitácora actualizada  
-✔ Historial de commits (proceso de trabajo)  
+1. Diseñar solución.
+2. Representar algoritmo (cuando se solicite).
+3. Codificar (cuando aplique).
+4. Guardar archivo con nombre correcto.
+5. Hacer commit descriptivo.
+6. Actualizar BITACORA.md.
+7. Subir cambios (push).
 
 ---
 
@@ -123,43 +167,51 @@ Se evaluará:
 
 El archivo BITACORA.md es obligatorio.
 
-Debe actualizarse semanalmente con:
+Debe incluir:
 
-- Qué se desarrolló
-- Qué errores surgieron
-- Cómo se resolvieron
-- Qué se aprendió
+- Qué se desarrolló.
+- Qué errores surgieron.
+- Cómo se resolvieron.
+- Qué se aprendió.
+
+La bitácora es evidencia del proceso.
+
+---
+
+# 📊 Criterios de evaluación
+
+Se evaluará:
+
+✔ Estructura correcta del repositorio  
+✔ Convención de nombres  
+✔ Código funcional  
+✔ Claridad del diseño algorítmico  
+✔ Representación gráfica correcta  
+✔ Historial de commits  
+✔ Bitácora actualizada  
 
 ---
 
 # 🚫 Restricciones
 
-- No borrar archivos base.
-- No modificar estructura de carpetas.
-- No compartir repositorios entre compañeros.
-- No subir archivos fuera de su unidad correspondiente.
+- No modificar estructura base.
+- No borrar carpetas oficiales.
+- No subir archivos fuera de su unidad.
+- No compartir repositorios.
+- No realizar un solo commit final (se evalúa proceso).
 
 ---
 
-# 💡 Recomendaciones técnicas
-
-## PSeInt
-Guardar archivos con extensión .psc
-
-## Python
-Archivos con extensión .py
-
-## C#
-Archivos con extensión .cs
-
----
-
-# 🎓 Importante
-
-Este repositorio funciona como evidencia formal del proceso de aprendizaje.
-El historial de cambios forma parte de la evaluación.
+# 🎓 Consideración final
 
 Programar no es solo que funcione.
-Es entender, documentar y mejorar.
 
----
+Es:
+
+✔ Pensar antes de escribir  
+✔ Diseñar con lógica  
+✔ Representar correctamente  
+✔ Documentar el proceso  
+✔ Mejorar continuamente  
+
+Este repositorio es evidencia formal de tu aprendizaje.
