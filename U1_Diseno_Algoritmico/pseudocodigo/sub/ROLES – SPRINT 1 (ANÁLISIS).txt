@@ -1,0 +1,119 @@
+# ROLES – SPRINT 1 (ANÁLISIS)
+
+Importante:  Los roles NO entregan documentos separados.  
+El equipo entrega:
+- Propuesta (PDF)
+- Bitácora (PDF)
+Pero dentro de esos documentos debe notarse el trabajo de cada rol.
+---
+#  ANALISTA
+
+Objetivo: Descubrir el problema real (no el síntoma).
+Debe hacer:
+1. Aplicar los 5 porqués.
+2. Identificar claramente al usuario.
+3. Redactar el problema sin ambigüedades.
+4. Definir qué NO es el problema.
+### Su trabajo debe verse en:
+(Propuesta PDF – rama `analisis`)
+- Sección “Causa raíz”
+- Problema definido en máximo 5 líneas
+- Usuario claramente identificado
+---
+# DISEÑADOR/A
+
+Objetivo: Hacer que el proyecto se entienda y tenga coherencia.
+Debe hacer:
+1. Organizar la información del analista.
+2. Definir el flujo general del sistema.
+3. Detectar contradicciones entre alcance y requisitos.
+4. Mejorar redacción y claridad.
+
+ ## ¿Qué es el “flujo simple”?
+* NO es UML formal.  
+* NO es diagrama técnico avanzado.
+Es el recorrido lógico del usuario. Puede ser:
+* Texto estructurado
+	1. Usuario inicia sesión.
+	2. Selecciona tutoría.
+	3. Sistema confirma registro.
+	4. Sistema envía recordatorio.
+* Esquema simple
+	* Usuario → Seleccionar tutoría → Confirmar → Recordatorio
+Eso es suficiente para Sprint 1.
+#### Su trabajo debe verse en:
+(Propuesta PDF – rama `analisis`)
+- Documento ordenado 
+- Sección “Flujo general del sistema”
+- Alcance claro (qué sí / qué no)
+---
+# DEV LÍDER
+
+Objetivo: Validar que el proyecto sea viable en el semestre.
+Debe hacer:
+1. Elegir tipo de sistema (Web / Móvil / Escritorio).
+2. Justificar la elección.
+3. Identificar al menos 3 riesgos técnicos reales.
+4. Proponer mitigación tentativa.
+
+Aquí no se diseña arquitectura formal.
+#### Su trabajo debe verse en:
+(Propuesta PDF – rama `analisis`)
+- Tipo de aplicación definido
+- Justificación coherente
+- Riesgo identificado
+- Mitigación tentativa
+
+---
+# QA / TESTER
+
+Objetivo: Detectar errores antes de programar.
+Debe hacer:
+1. Revisar todo el análisis.
+2. Señalar ambigüedades en RF/RNF.
+3. Hacer preguntas críticas.
+4. Proponer al menos un criterio básico de validación.
+##### Su trabajo debe verse en:
+(Propuesta PDF + Bitácora)
+- Ajustes en requisitos ambiguos
+- Lista breve de observaciones
+- Riesgos registrados en bitácora
+
+Ejemplo:  
+“RF3 no especifica cómo se enviará el recordatorio.”
+
+---
+
+# COORDINADOR/A
+
+Objetivo: Asegurar que el sprint se cumpla en tiempo y forma.
+Debe hacer:
+1. Verificar que todos trabajen.
+2. Registrar actividades reales.
+3. Registrar acuerdos.
+4. Detectar retrasos.
+#####  Su trabajo debe verse en:
+(Bitácora PDF – rama `documentacion`)
+- Actividades detalladas
+- Acuerdos claros 
+- Dudas y riesgos
+- Evidencias reales
+- Participación equilibrada
+
+---
+# ENTREGABLES FINALES (PARA QUE NO HAYA DUDA)
+
+##  Rama `analisis`
+`T1_Propuesta_Sprint1_EquipoX.pdf`
+Incluye:
+- Problema + 5 porqués
+- Usuario
+- Alcance
+- Flujo simple
+- RF (min 5)
+- RNF (min 3)
+- Viabilidad preliminar
+---
+## Rama `documentación`
+
+`T1_Bitacora_Sprint1_EquipoX.pdf Evidencias_Sprint1.md /imagenes_sprint1/`
